@@ -1,9 +1,9 @@
 
 
 # Transformations and work done by the code run_analysis.R
-###The code is self explainatory. The followings are the explanations inside the code with codes itself removed.
+### The code is self explainatory. The followings are the explanations inside the code with codes itself removed.
 1. Merges the training and the test sets to create one data set.
-* Download and unzip raw data
+** Download and unzip raw data
 * Load the packages required for data manipulation.
 * Read dataframes.
 * if using RStudio, you can see that test dataframes (3ea) are with 2947 obs. and trains (3ea) with 7352 obs. 
