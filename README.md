@@ -14,9 +14,9 @@ Coursera assignment week 4 of getting and cleaning data
 3. The final outcome is saved in the working directory. They are tidydata.txt and tidydata2.txt. The second one does not use the argument row.name=FALSE while running the function write.table()
 
 ## Raw data source
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Full descriptions of the above data could be found at:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Full descriptions of the above data could be found at:
+* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Dependencies
 1. The code run_analysis.R requires the package dplyr.
