@@ -4,16 +4,17 @@
 
 # The variables in tidydata.txt
 ### By default of the requirements which explicitly command to use the argument row.name=FALSE in write.table(), the variable names are in the first row of the file tidydata.txt. tidydata2.txt contains the variable names in the column heads.
-1. subjectid: identifies the performer of the experiments (the one who walks, upstairs, down, sit, lay and stands)
-2. activityname: the activity done, 
+1. activityname: the activity done, 
   1:WALKING
   2:WALKING_UPSTAIRS
   3:WALKING_DOWNSTAIRS
   4:SITTING
   5:STANDING
   6:LAYING
-3. All the other variables are the mean of each variable measurements (which itself was also a mean) stratified by the subject and activity. For further information, read the features_info.txt in the ./UCI HAR Dataset directory, which the run_analysis will automatically produce.
+2. subjectid: identifies the performer of the experiments (the one who walks, upstairs, down, sit, lay and stands)
+3. All the other variables are the mean of each variable measurements (which itself was also a mean) stratified by the activity type and the subject who performed it. For further information, read the features_info.txt in the ./UCI HAR Dataset directory, which the run_analysis will automatically produce.
 4. List of variables in tidydata.txt. They are transformed to be 'readable' as much as possible.
+
 [1] "activityname"                                                 
 [2] "subjectid"                                                    
 [3] "TimeBodyAccelerometer.MeanXDirection"                         
