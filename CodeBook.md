@@ -1,9 +1,24 @@
+# The raw data
+1. source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. explanations on the raw data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+# The variables in tidydata.txt
+### By default of the requirements which explicitly command to use the argument row.name=FALSE in write.table(), the variable names are in the first row of the file tidydata.txt. tidydata2.txt contains the variable names in the column heads.
+1. subjectid: identifies the performer of the experiments (the one who walks, upstairs, down, sit, lay and stands)
+2. activityname: the activity done, 
+  1:WALKING
+  2:WALKING_UPSTAIRS
+  3:WALKING_DOWNSTAIRS
+  4:SITTING
+  5:STANDING
+  6:LAYING
+3. All the other variables are the mean of each variable measurements (which itself was also a mean) stratified by the subject and activity. For further information, read the features_info.txt in the ./UCI HAR Dataset directory, which the run_analysis will automatically produce.
 
 
 # Transformations and work done by the code run_analysis.R
 ### The code is self explainatory. The followings are the explanations inside the code with codes itself removed.
 1. Merges the training and the test sets to create one data set.
-** Download and unzip raw data
+* Download and unzip raw data
 * Load the packages required for data manipulation.
 * Read dataframes.
 * if using RStudio, you can see that test dataframes (3ea) are with 2947 obs. and trains (3ea) with 7352 obs. 
